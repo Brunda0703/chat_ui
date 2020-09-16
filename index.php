@@ -11,7 +11,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet" />
 
   <script>
-    var server = "https://hashtagapichat.herokuapp.com/";
+    var server = "https://hashtagapichat.herokuapp.com";
     var io = io(server);
     var myName = "";
     var otherPersonName = "";
