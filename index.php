@@ -172,7 +172,7 @@
 <body>
   <div class="container">
     <h3 class="text-center" style="font-size: xx-large;margin: 2rem 0 ;" >HASHTAG CHAT BOX</h3>
-    <p style="color:red"> Please make sure every user click the url before you enter your name </p>
+    <p style="color:red;text-align: center"> Please make sure every user click the url before you enter your name </p>
     <div class="messaging">
       <div class="inbox_msg">
         <div class="inbox_people">
