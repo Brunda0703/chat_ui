@@ -87,14 +87,14 @@
 
       $.ajax({
         url: server + "/get_messages",
-        method: "POST",
-        data: {
+        type: "POST",
+        data:{
           "sender": myName,
           "receiver": otherPersonName
         },
         success: function(response) {
-          console.log(response);
-          var messages = response;
+          console.log(JSON.parse(response));
+          var messages = JSON.parse(response);
           var html = "";
           console.log("Selected");
 
