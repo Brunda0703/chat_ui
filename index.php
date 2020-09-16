@@ -93,8 +93,8 @@
           "receiver": otherPersonName
         },
         success: function(response) {
-          // console.log(response);
-          var messages = JSON.parse(response);
+          console.log(response);
+          var messages = response;
           var html = "";
           console.log("Selected");
 
