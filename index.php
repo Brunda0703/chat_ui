@@ -223,10 +223,6 @@
 
   <style>
 
-    body {
-      overflow-y: hidden;
-    }
-
     .container {
       max-width: 1170px;
       margin: auto;
